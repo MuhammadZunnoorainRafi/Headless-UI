@@ -13,6 +13,7 @@ const people = [
 ];
 
 export default function listbox() {
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   const [selected, setSelected] = useState(people[0]);
 
   return (

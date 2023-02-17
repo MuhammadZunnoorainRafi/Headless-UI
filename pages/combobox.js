@@ -13,7 +13,9 @@ const people = [
 ];
 
 export default function combobox() {
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   const [selected, setSelected] = useState(people[0]);
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   const [query, setQuery] = useState('');
 
   const filteredPeople =

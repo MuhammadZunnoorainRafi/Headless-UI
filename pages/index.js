@@ -5,7 +5,7 @@ export default function Home() {
     <Layout>
       <div>
         <h3
-          className="font-bold text-3xl underline
+          className="font-bold min-h-[120vh] text-3xl underline
  underline-offset-2"
         >
           Select one from above
