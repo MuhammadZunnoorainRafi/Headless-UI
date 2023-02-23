@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Switch } from '@headlessui/react';
 import Layout from '@/components/Layout';
 
-export default function toggle() {
+export default function Toggle() {
   // eslint-disable-next-line react-hooks/rules-of-hooks
   const [enabled, setEnabled] = useState(false);
 

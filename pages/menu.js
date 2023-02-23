@@ -3,7 +3,7 @@ import { Fragment, useEffect, useRef, useState } from 'react';
 import { ChevronDownIcon } from '@heroicons/react/20/solid';
 import Layout from '@/components/Layout';
 
-export default function menu() {
+export default function Menuu() {
   return (
     <Layout>
       <div className=" w-56 text-right">

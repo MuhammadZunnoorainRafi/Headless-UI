@@ -12,7 +12,7 @@ const people = [
   { id: 6, name: 'Hellen Schmidt' },
 ];
 
-export default function combobox() {
+export default function Comboboxx() {
   // eslint-disable-next-line react-hooks/rules-of-hooks
   const [selected, setSelected] = useState(people[0]);
   // eslint-disable-next-line react-hooks/rules-of-hooks
